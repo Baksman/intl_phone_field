@@ -1,4 +1,4 @@
-library intl_phone_field;
+Tranlibrary intl_phone_field;
 
 import 'dart:async';
 import 'package:flutter/foundation.dart' show kIsWeb;
@@ -374,7 +374,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
   @override
   Widget build(BuildContext context) {
     return Transform.translate(
-      offset: Offset(0, 10),
+      offset: Offset(0, 15),
       TextFormField(
       initialValue: (widget.controller == null) ? number : null,
       autofillHints: widget.disableAutoFillHints ? null : [AutofillHints.telephoneNumberNational],
