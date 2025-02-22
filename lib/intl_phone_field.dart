@@ -374,7 +374,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
   @override
   Widget build(BuildContext context) {
     return Transform.translate(
-      offset: Offset(0, -10),
+      offset: Offset(0, 10),
       TextFormField(
       initialValue: (widget.controller == null) ? number : null,
       autofillHints: widget.disableAutoFillHints ? null : [AutofillHints.telephoneNumberNational],
